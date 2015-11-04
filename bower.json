@@ -1,0 +1,10 @@
+{
+    "name":  "jessica-test",
+    "version": "0.0.1",
+    "dependencies": {
+        "angular": "*",
+        "jquery": "*",
+        "video.js": "*",
+        "bootstrap": "*"
+    }
+}

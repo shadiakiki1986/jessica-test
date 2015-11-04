@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Test 1</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="content-language" content="en">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  
+    <script type="text/javascript" src="cordova.js"></script>
+  
+  <!--
+    <script type="text/javascript" src="js/vendor/jquery.js"></script> 
+    <script type="text/javascript" src="js/vendor/angular.js"></script>
+    <script type="text/javascript" src="js/vendor/bootstrap.js"></script>
+  
+  <script type="text/javascript" src="js/Main.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>  
+    <link rel="stylesheet" type="text/css" href="css/vendor/bootstrap.css"></script>
+-->
+
+    <link rel="stylesheet" type="text/css" href="css/vendor/video-js.css"></script>
+  </head>
+  <body>
+  
+  <video id="example_video_1" class="video-js vjs-default-skin" controls preload="none" width="640" height="264"
+      poster="videos/oceans-clip.png"
+      data-setup="{}">
+    <source src="videos/oceans-clip.mp4" type='video/mp4' />
+    <source src="videos/oceans-clip.webm" type='video/webm' />
+    <source src="videos/oceans-clip.ogv" type='video/ogg' />
+    <track kind="captions" src="videos/example-captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+    <track kind="subtitles" src="videos/example-captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+    <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+  </video>
+
+  </body>
+</html>
