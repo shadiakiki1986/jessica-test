@@ -8,3 +8,10 @@ install:
 	cp bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff www/css/fonts/
 	cp bower_components/video.js/dist/video.js www/js/vendor/video.js
 	cp bower_components/video.js/dist/video-js.css www/css/vendor/video-js.css
+
+videos:
+	wget http://video-js.zencoder.com/oceans-clip.ogv -O videos/oceans-clip.ogv
+	wget http://video-js.zencoder.com/oceans-clip.png -O videos/oceans-clip.png
+	wget http://video-js.zencoder.com/oceans-clip.mp4 -O videos/oceans-clip.mp4
+	wget http://video-js.zencoder.com/oceans-clip.webm -O videos/oceans-clip.webm
+
